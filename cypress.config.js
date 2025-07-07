@@ -1,11 +1,18 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'bwtvnp',
   e2e: {
+    reporter: 'cypress-mochawesome-reporter',
+    reporterOptions: {
+      charts: true,
+      reportTitle: 'Projeto Cypress',
+      reportPageTitle: 'Projeto Cypress'
+    },
     baseUrl: "https://automationpratice.com.br/",
     defaultCommandTimeout: 5000,
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      require('cypress-mochawesome-reporter/plugin')(on);
     },
   },
 });
