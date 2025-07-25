@@ -1,0 +1,50 @@
+Curso de git para tester:
+
+ver o curso de graça: colocar no google "curso de git para testes da udemy qazando"
+
+adicionar no GitHub:
+
+- criar o repositório cypress-qazando-iniciante
+- no terminal:
+
+git init
+git remote add origin https://github.com/carlavoldemar/cypress-qazando-iniciante.git
+
+na raiz do projeto criar o arquivo .gitignore com :
+
+note modules
+package-lock.json
+vídeos
+screenshots
+
+git status
+git add .
+git commit -m "Criando projeto"
+git push -u origin master
+
+
+gitlab CI, git action CI (contínuos integration) CD (contínuos delivery), antes usava Jenkins - executam comandos. Isso são pipelines
+
+para que servem:
+branch built
+testes integrados
+atualizar ambiente
+
+em java ci cd tem que ser separado os testes
+se for html pode ser integrado
+
+GitHub actions é uma plataforma de integração continua e entrega continua (CI CD) que permite automatizar a sua compilação, testar e pipeline de implantação. É possível criar fluxos de trabalho (pipelines) que criam e testam cada pull request no seu repositório, ou implantar pull requests mesclados em produção
+
+Exemplo:
+Alteracao nova feature.
+abre pull request
+roda testes para garantir que não quebrou
+rodar x hora (agendamento)
+
+
+QAops é com pipeline
+
+
+
+
+
