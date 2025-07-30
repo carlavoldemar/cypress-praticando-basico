@@ -12,7 +12,7 @@ describe('Cadastro de usuário', () => {
 
     it('Campo Nome vazio', () => {
         cadastro_page.clicarCadastrar()
-        cadastro_page.validarMensagemErro('O campo nome deve ser prenchido')
+        cadastro_page.validarMensagemErro('O campo nome deve ser prenchidoXX')
     })
 
     it('Campo Email vazio', () => {
