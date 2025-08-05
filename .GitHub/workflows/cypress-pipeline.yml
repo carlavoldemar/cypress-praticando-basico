@@ -1,5 +1,5 @@
 # nome da pipeline
-name: Run Basic Testes
+name: Run Basic Testes 
 
 # em que momento sera executada
 on:
