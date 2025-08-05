@@ -21,7 +21,7 @@ jobs:
 
       # exemplo de execucao no terminal
       - name: Instalar dependencias do projeto
-        run: echo Carla
+        run: npm install
       
       # execucao e config do projeto
       - name: Run testes
